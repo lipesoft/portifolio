@@ -1,0 +1,263 @@
+:root {
+  --primary-color: #00ffff;
+  --secondary-color: #4d00ff; 
+  --accent-color: #76ff03; 
+  --background-color: #0a0a1f;
+  --surface-color: #10102c;
+  --text-color: #e0e0e0;
+  --text-muted-color: #a0a0a0;
+  --border-color: #2a2a4f;
+  --glow-color: rgba(0, 255, 255, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: var(--background-color);
+
+  color: var(--text-color);
+  line-height: 1.7;
+  overflow-x: hidden; 
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    transparent,
+    transparent 2px,
+    rgba(255, 255, 255, 0.02) 2px, 
+    rgba(255, 255, 255, 0.02) 3px
+  );
+  pointer-events: none;
+  z-index: -1; 
+}
+
+
+header {
+  background-color: var(--surface-color);
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom: 2px solid var(--primary-color);
+  box-shadow: 0 0 20px var(--glow-color);
+  position: relative;
+  overflow: hidden;
+}
+
+header::after { 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+        linear-gradient(to right, rgba(0, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid var(--primary-color);
+  object-fit: cover;
+  margin-bottom: 25px;
+  box-shadow: 0 0 15px var(--primary-color), 0 0 25px var(--glow-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+header img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--primary-color), 0 0 40px var(--glow-color);
+}
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.8rem;
+  color: var(--primary-color);
+  text-shadow: 0 0 5px var(--primary-color), 0 0 10px var(--glow-color);
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: var(--text-muted-color);
+  font-style: italic;
+  position: relative;
+  z-index: 1;
+}
+
+main {
+  max-width: 960px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+section {
+  background-color: var(--surface-color);
+  padding: 30px;
+  margin-bottom: 40px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3), inset 0 0 5px rgba(0, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5), inset 0 0 10px rgba(0, 255, 255, 0.2), 0 0 15px var(--glow-color);
+}
+
+h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 12px;
+  padding-left: 20px;
+  position: relative;
+}
+
+li::before { /* Marcador de lista personalizado */
+  /*content: '>>';*/
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: 0.9em;
+  top: 2px;
+}
+
+strong {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  font-weight: bold;
+}
+
+a:hover, a:focus {
+  color: var(--primary-color);
+  text-decoration: none;
+  text-shadow: 0 0 8px var(--glow-color);
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background: var(--surface-color);
+  color: var(--text-muted-color);
+  border-top: 2px solid var(--border-color);
+  margin-top: 50px;
+  font-size: 0.9rem;
+}
+
+.highlight {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out forwards, slideUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Adicionando um pouco mais de "glitch" ou "digital feel" */
+.button-tech {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    background: transparent;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.button-tech:hover {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+    box-shadow: 0 0 15px var(--glow-color);
+}
+
+.button-tech::before { /* Efeito de "scan" no hover */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.4s ease;
+}
+
+.button-tech:hover::before {
+    left: 100%;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    section {
+        padding: 20px;
+    }
+}
