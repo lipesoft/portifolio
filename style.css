@@ -147,7 +147,7 @@ li {
   position: relative;
 }
 
-li::before { /* Marcador de lista personalizado */
+li::before {
   /*content: '>>';*/
   position: absolute;
   left: 0;
@@ -210,7 +210,6 @@ footer {
     }
 }
 
-/* Adicionando um pouco mais de "glitch" ou "digital feel" */
 .button-tech {
     display: inline-block;
     padding: 10px 20px;
@@ -231,7 +230,7 @@ footer {
     box-shadow: 0 0 15px var(--glow-color);
 }
 
-.button-tech::before { /* Efeito de "scan" no hover */
+.button-tech::before {
     content: '';
     position: absolute;
     top: 0;
@@ -246,18 +245,46 @@ footer {
     left: 100%;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
+.botao-curriculo{
+  display: flex;
+  justify-content: center;
+  height: auto;
+  padding-bottom: auto;
+}
+
+.botao-idioma{
+  display: flex;
+  justify-content: center;
+  height: 5%;
+  padding-bottom: 5%;
+}
+
+@media (max-width: 480px) {
     header h1 {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
+
     header p {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        text-align: center;
     }
+
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
+
     section {
-        padding: 20px;
+        padding: 15px;
+    }
+
+    .projeto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projeto img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
     }
 }
