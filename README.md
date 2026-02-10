@@ -1,6 +1,6 @@
 # Portfólio Pessoal – Filipe Rodrigues
 
-Este é meu portfólio online, desenvolvido com HTML e CSS puro, onde apresento minhas habilidades, experiências, formação e projetos acadêmicos. O objetivo é mostrar meu progresso como desenvolvedor e facilitar o contato profissional.
+Este é meu portfólio online, desenvolvido com HTML e CSS puro, onde apresento minhas habilidades, experiências, formação e projetos acadêmicos.
 
 ## 🧠 Tecnologias utilizadas
 - HTML5
