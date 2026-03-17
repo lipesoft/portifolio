@@ -1,26 +1,26 @@
-# 🚀 Filipe Rodrigues | Portfolio
+# Filipe Rodrigues | Portfolio
 
-Olá! Este é o repositório do meu portfólio pessoal, onde apresento minha trajetória como estudante de Engenharia de Software e meus projetos.
+Hello! This is the repository for my personal portfolio, showcasing my journey as a Software Engineering student and my projects.
 
-## 📌 Sobre Mim
-Sou estudante de **Engenharia de Software na UCSAL** (Universidade Católica do Salvador) e atualmente estagiário na **In9 Mídia**. Tenho foco em desenvolvimento web e análise de dados, buscando sempre criar soluções que resolvam problemas reais.
+## About Me
+I am a **Software Engineering student at UCSAL** (Catholic University of Salvador) and currently an intern at **In9 Mídia**. My focus is on web development and data analysis, always seeking to create solutions that solve real-world problems.
 
-## 🛠️ Tecnologias Utilizadas
-- **HTML5** & **CSS3**: Estrutura e estilização moderna.
-- **JavaScript (ES6+)**: Manipulação de DOM, animações de scroll e interatividade.
-- **Google Fonts**: Tipografia Poppins para melhor leitura.
+## Technologies Used
+- **HTML5** & **CSS3**: Modern structure and styling.
+- **JavaScript (ES6+)**: DOM manipulation, scroll animations, and interactivity.
+- **Google Fonts**: Poppins typography for better readability.
 
-## 🌟 Funcionalidades
-- [x] **Layout Responsivo**: Adaptado para mobile e desktop.
-- [x] **Smooth Scroll**: Navegação suave entre as seções.
-- [x] **Scroll Reveal**: Elementos que surgem conforme o usuário navega.
-- [x] **Download de CV**: Botão direto para acesso ao currículo.
+## Features
+- **Responsive Layout**: Fully adapted for mobile and desktop.
+- **Smooth Scroll**: Seamless navigation between sections.
+- **Scroll Reveal**: Elements that animate as the user scrolls.
+- **CV Download**: Direct button for resume access.
 
-## 📁 Estrutura do Projeto
-- `index.html`: Estrutura principal.
-- `style.css`: Estilização e animações.
-- `script.js`: Lógica de scroll e interações.
-- `/assets`: Imagens, ícones e arquivos de documentos.
+## Project Structure
+- `index.html`: Main structure.
+- `style.css`: Styling and animations.
+- `script.js`: Scroll logic and interactions.
+- `/assets`: Images, icons, and documents.
 
 ---
-Mantenha-se conectado: [f.rodrigues0907@gmail.com](mailto:f.rodrigues0907@gmail.com)
+Get in touch: [f.rodrigues0907@gmail.com](mailto:f.rodrigues0907@gmail.com)
