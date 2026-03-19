@@ -38,37 +38,36 @@ body {
   color: #aaa;
 }
 
-.info {
-  font-size: 14px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+/* INFO */
+.info p {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #94a3b8;
 }
 
-.info a {
-  color: #ffb400;
+.info a,
+.info span {
+  font-size: 14px;
+  display: block;
+  color: #e2e8f0;
   text-decoration: none;
 }
 
-.btn-download-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 15px;
-}
-
-.btn-download {
-  background: #1d1d1d;
-  padding: 12px;
+.btn-download a {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
   text-align: center;
+  background: #1d1d1d;
   border-radius: 8px;
+  color: white;
+  text-decoration: none;
   transition: 0.3s;
 }
 
-.btn-download:hover {
-  background: #ffb400;
-  color: black;
-  transform: translateY(-4px);
+.btn-download a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 180, 0, 0.5);
 }
 
 /* CONTENT */
