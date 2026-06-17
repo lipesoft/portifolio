@@ -1,26 +1,40 @@
-# Filipe Rodrigues | Portfolio
-
-Hello! This is the repository for my personal portfolio, showcasing my journey as a Software Engineering student and my projects.
-
-## About Me
-I am a **Software Engineering student at UCSAL** (Catholic University of Salvador) and currently an intern at **In9 Mídia**. My focus is on web development and data analysis, always seeking to create solutions that solve real-world problems.
-
-## Technologies Used
-- **HTML5** & **CSS3**: Modern structure and styling.
-- **JavaScript (ES6+)**: DOM manipulation, scroll animations, and interactivity.
-- **Google Fonts**: Poppins typography for better readability.
-
-## Features
-- **Responsive Layout**: Fully adapted for mobile and desktop.
-- **Smooth Scroll**: Seamless navigation between sections.
-- **Scroll Reveal**: Elements that animate as the user scrolls.
-- **CV Download**: Direct button for resume access.
-
-## Project Structure
-- `index.html`: Main structure.
-- `style.css`: Styling and animations.
-- `script.js`: Scroll logic and interactions.
-- `/assets`: Images, icons, and documents.
-
+# Filipe Rodrigues | Portfólio Pessoal
+ 
+Portfólio pessoal desenvolvido para apresentar minha trajetória como estudante de Engenharia de Software e profissional de tecnologia.
+ 
+## Sobre mim
+Sou **Analista de Sistemas na In9 Mídia Soluções Digitais** e estudante de **Engenharia de Software na UCSAL**. Tenho foco em desenvolvimento backend, APIs REST, cloud computing e soluções SaaS.
+ 
+## Tecnologias do Portfólio
+- **HTML5**, **CSS3** e **JavaScript** — estrutura, estilo e interatividade em arquivo único
+- **JetBrains Mono** + **Space Grotesk** — tipografia técnica e moderna
+- Animações com **IntersectionObserver**, efeito de digitação e scroll reveal
+## Funcionalidades
+- Layout totalmente responsivo (mobile e desktop)
+- Navbar fixa com blur e menu hambúrguer para mobile
+- Efeito de digitação rotativo no hero
+- Orbs animados e grid de fundo para profundidade visual
+- Efeito spotlight nos cards de projeto (luz segue o mouse)
+- Marquee infinito com stack de tecnologias
+- Contadores animados nas métricas
+- Scroll suave entre seções
+- Download direto do CV
+## Estrutura
+```
+portifolio/
+├── index.html                  # Portfólio completo (HTML + CSS + JS em um arquivo)
+└── assets/
+    ├── foto.jpg                # Foto de perfil
+    └── Filipe_Rodrigues_cv.pdf # Currículo para download
+```
+ 
+## Projetos em Destaque
+- **Autenix** — SaaS de gestão para restaurantes (em desenvolvimento)
+- **Async Banking API** — API REST assíncrona com FastAPI e JWT
+- **Habit Tracking System** — Backend Python com SQLite e CLI
+- **Sistema Bancário (POO)** — Sistema bancário em Python com OOP
 ---
-Get in touch: [f.rodrigues0907@gmail.com](mailto:f.rodrigues0907@gmail.com)
+ 
+📧 f.rodrigues0907@gmail.com  
+🔗 [linkedin.com/in/filipe-rodrigues-a79809386](https://www.linkedin.com/in/filipe-rodrigues-a79809386)  
+🐙 [github.com/lipesoft](https://github.com/lipesoft)
