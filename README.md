@@ -33,6 +33,10 @@ portifolio/
 - **Async Banking API** — API REST assíncrona com FastAPI e JWT
 - **Habit Tracking System** — Backend Python com SQLite e CLI
 - **Sistema Bancário (POO)** — Sistema bancário em Python com OOP
+
+## Formação recente
+
+- **Fundamentos de Java — DIO**: introdução e ambiente de desenvolvimento, sintaxe, estruturas de controle, abstração, classes, encapsulamento e polimorfismo.
 ---
  
 📧 f.rodrigues0907@gmail.com  
