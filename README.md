@@ -38,7 +38,7 @@ portifolio/
 ## Formação recente
 
 - **Fundamentos de Java — DIO**: introdução e ambiente de desenvolvimento, sintaxe, estruturas de controle, abstração, classes, encapsulamento e polimorfismo.
-- **Itaú - Java com Inteligência Artificial — DIO**: Java, Spring Boot, APIs REST e integração de IA com Spring AI.
+- **Itaú - Java com Inteligência Artificial — DIO**: Java, Spring, APIs REST, Inteligência Artificial e AI Agents.
 ---
  
 📧 f.rodrigues0907@gmail.com  
