@@ -1015,11 +1015,11 @@
 
         <div class="stats-grid">
           <div class="stat-card reveal">
-            <div class="stat-num" data-target="4">0</div>
+            <div class="stat-num" data-target="5">0</div>
             <div class="stat-label">Projetos no GitHub</div>
           </div>
           <div class="stat-card reveal">
-            <div class="stat-num" data-target="10">0</div>
+            <div class="stat-num" data-target="11">0</div>
             <div class="stat-label">Certificações</div>
           </div>
           <div class="stat-card reveal">
@@ -1049,7 +1049,9 @@
           <div class="skill-category-title">Backend</div>
           <div class="skill-list">
             <span class="skill-pill">Python</span>
-            <span class="skill-pill">Java (fundamentos)</span>
+            <span class="skill-pill">Java</span>
+            <span class="skill-pill">Spring Boot</span>
+            <span class="skill-pill">Spring AI</span>
             <span class="skill-pill">FastAPI</span>
             <span class="skill-pill">Node.js</span>
             <span class="skill-pill">APIs REST</span>
@@ -1162,6 +1164,25 @@
         <!-- BANK API -->
         <div class="project-card reveal">
           <span class="project-status status-done"><span class="status-dot"></span> Concluído</span>
+          <h3>Budgeting AI</h3>
+          <p class="project-desc">
+            Aplicação web de orçamento pessoal com Java e Spring Boot. Permite registrar despesas, consultar totais por categoria e usar IA com Tool Calling para processar comandos de voz.
+          </p>
+          <div class="tech-chips">
+            <span class="tech-chip">Java 17</span>
+            <span class="tech-chip">Spring Boot</span>
+            <span class="tech-chip">Spring AI</span>
+            <span class="tech-chip">H2</span>
+            <span class="tech-chip">OpenAI</span>
+          </div>
+          <a href="https://github.com/lipesoft/budgeting-ai-dio" target="_blank" class="project-link">
+            Ver no GitHub
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+          </a>
+        </div>
+
+        <div class="project-card reveal">
+          <span class="project-status status-done"><span class="status-dot"></span> Concluído</span>
           <h3>Async Banking API</h3>
           <p class="project-desc">
             API bancária assíncrona RESTful construída com FastAPI e SQLite. Autenticação JWT, gerenciamento de
@@ -1231,6 +1252,16 @@
       </div>
 
       <div class="certs-grid">
+        <div class="cert-card reveal">
+          <div class="cert-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M9 14 7.5 21 12 18.5 16.5 21 15 14"/></svg>
+          </div>
+          <div class="cert-info">
+            <strong>Itaú - Java com Inteligência Artificial</strong>
+            <span>DIO - Java, Spring Boot e Spring AI</span>
+          </div>
+        </div>
+
         <div class="cert-card reveal">
           <div class="cert-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M9 14 7.5 21 12 18.5 16.5 21 15 14"/></svg>
@@ -1382,6 +1413,7 @@
       "Python & FastAPI",
       "Node.js & APIs REST",
       "Cloud Computing",
+      "Java & Spring Boot",
       "Soluções SaaS"
     ];
     let roleIndex = 0, charIndex = 0, deleting = false;
